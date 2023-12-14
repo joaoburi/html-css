@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-elementos em CSS</title>
+    <style>
+
+        /*
+            SELETORES PERSONALIZADOS
+            #  = id 
+            .  = class
+            :  = pseudo-class
+            :: = pseudo-element
+            >  = clildren
+
+        */
+        body {
+            background-color: rgb(38, 181, 199);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: rgb(102, 0, 255);
+            text-decoration: none;
+        }
+    
+        a:visited {
+            color: rgb(255, 0, 0);
+        }
+        a:hover {
+            color: rgb(9, 255, 17);
+            text-decoration: underline;
+        }
+        a:active {
+            color: hotpink;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <li><a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf">Repositório GitHub</a></li>
+    <li><a href="https://www.cursoemvideo.com/minha-conta/">Canal no YouTube</a></li>
+    <li><a href="https://www.youtube.com/results?search_query=curso+em+video">Site do Curso em Vídeo</a></li>
+</body>
+</html>
