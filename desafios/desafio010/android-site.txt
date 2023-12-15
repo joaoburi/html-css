@@ -1,4 +1,4 @@
-[MENU]
+[MENU] 2.0
 
 Curiosidades de Tecnologia
 
