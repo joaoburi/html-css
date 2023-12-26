@@ -1,4 +1,4 @@
-[MENU] 1.0
+[SITE]
 
 Curiosidades de Tecnologia
 
