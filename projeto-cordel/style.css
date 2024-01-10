@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    font-size: 4vh;
+}
+#inicio {
+    text-align: center;
+    font-size: 4vh;
+    background-color: black;
+    color: white;
+    height: 40vh;
+}
+
+#foto1 {
+    background-image: url(imagens/background001.jpg);
+    height: 50vh;
+}
+
+#foto2 {
+    background-image: url(imagens/background002.jpg);
+    height: 50vh;
+}
