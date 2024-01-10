@@ -5,15 +5,26 @@
     padding: 0px;
 }
 
-p {
-    font-size: 4vh;
+div#conteudo > p {
+    font-size: 3vh;
 }
-#inicio {
-    text-align: center;
-    font-size: 4vh;
+#container {
     background-color: black;
-    color: white;
-    height: 40vh;
+    font-size: 4vh;
+    height: 46vh;
+    
+}
+
+#conteudo {
+    background-color: yellow;
+    color: brown;
+    font-size: 6vh;
+    
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #foto1 {
