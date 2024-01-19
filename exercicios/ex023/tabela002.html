@@ -20,9 +20,7 @@
             font-weight: bold;
             font-size: 1.3em;
             background-color: lightgray;
-            padding: 5px;
-
-        
+            padding: 5px;       
         }
         thead, tfoot {	
             background-color: rgba(0, 0, 0, 0.87);
@@ -30,6 +28,12 @@
         }
         td.num {
             text-align: right;
+        }
+        tbody tr:nth-child(odd){ /* ou 2n-1 */
+            background-color: white;
+        }
+        tbody tr:nth-child(even){ /* ou 2n */
+            background-color: lightgray;
         }
     </style>
 </head>
