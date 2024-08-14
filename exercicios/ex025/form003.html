@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <form action="" method="get" autocomplete="on">
+        <p>
+            <label for="inome">Nome: 
+                <input type="text" name="nome" id="inome" required autocomplete="name" placeholder="Nome Completo" maxlength="30"></label>
+        </p>
+        <p>
+            <label for="imedia">Média: 
+                <input type="number" name="media" id="imedia" required min="0" max="10" step="0.1">
+            </label>
+        </p>
+        <p>
+            <label for="imes">Período Letivo: 
+                <input type="month" name="mes" id="imes" required value="2024-08">
+            </label>
+        </p>
+        <p>
+            <label for="idia">Dia da Prova: 
+                <input type="date" name="dia" id="idia" required value="2024-08-14">
+            </label>
+        </p>
+        <p>
+            <label for="ihora">Horário da Prova: 
+                <input type="time" name="hora" id="ihora" required value="15:00">
+            </label>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+        <p>
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
