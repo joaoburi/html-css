@@ -1,2 +1,40 @@
 @charset "UTF-8";
 
+@media print {
+    * {
+        font-family: 'Times New Roman', Times, serif;
+    }
+    h1 {
+        color: black;
+    }
+}
+
+/* Tablet e celulares grandes */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    img#phone { display: none; }
+    img#tablet { display: block; }
+    img#print { display: none; }
+    img#pc { display: none; }
+    img#tv { display: none; }
+}
+
+/* Laptops, Tablets Grandes e PCs pequenos  */
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    img#phone { display: none; }
+    img#tablet { display: none; }
+    img#print { display: none; }
+    img#pc { display: block; }
+    img#tv { display: none; }
+}
+
+/* PCs grandes e TVs */
+@media screen and (min-width: 1280px) {
+    main {
+        width: 600px;
+    }
+    img#phone { display: none; }
+    img#tablet { display: none; }
+    img#print { display: none; }
+    img#pc { display: none; }
+    img#tv { display: block; }
+}

@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+/* 
+https://professorguanabara.github.io/html-css/exercicios/ex026/mq005/ 
+*/
+
+/* 
+#303030
+*/
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body, html {
+    background-color: #949494;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+div {
+    background-color: #303030;
+    padding: 10px 0px;
+    text-align: center;
+    color: white;
+}
+
+div:hover {
+    background-color: white;
+    color: black;
+}
+
+header menu {
+    color: white;
+}
+
+header menu ul li {
+    background-color: rgb(73, 73, 73);
+    text-align: center;
+    padding: 10px 0px;
+    margin: 2px 0px;
+}
+
+header menu ul li:hover {
+    background-color: #949494;
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px 5px 0px 5px;
+}
+
+main h2 {
+    padding: 10px;
+}
+
+main article {
+    padding: 10px;
+}
+
+main article p {
+    padding-bottom: 20px;
+}
