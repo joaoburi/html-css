@@ -4,19 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="estilos/style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <div>icone</div>
-        <menu>
+        <div onclick="clickMenu()" id="idmenu">
+            <span class="material-symbols-outlined">menu</span>
+        </div>
+        
+        <menu id="itens">
             <ul>
-                <li>Opção 1</li>
-                <li>Opção 2</li>
-                <li>Opção 3</li>
-                <li>Opção 4</li>
-                <li>Opção 5</li>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
             </ul>
         </menu>
     </header>
@@ -30,5 +35,6 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, doloremque ex tenetur labore dolor voluptatem perspiciatis voluptatibus error temporibus rem obcaecati magni vitae nam esse sit! Exercitationem, qui dolore! Incidunt! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo totam explicabo delectus pariatur incidunt minima quam deleniti est cumque, aspernatur eaque in eos mollitia porro soluta quaerat aliquam vero reprehenderit!</p>
         </article>
     </main>
+    
 </body>
 </html>

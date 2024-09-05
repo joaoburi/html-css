@@ -13,11 +13,12 @@ https://professorguanabara.github.io/html-css/exercicios/ex026/mq005/
 }
 
 body, html {
-    background-color: #949494;
+    background-color: #c1c1c1;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header h1 {
+    background-color: #949494;
     text-align: center;
     padding: 10px 0px;
 }
@@ -27,18 +28,32 @@ div {
     padding: 10px 0px;
     text-align: center;
     color: white;
+    margin-bottom: 10px;
+    display: block;
+    user-select: none;
 }
 
 div:hover {
     background-color: white;
     color: black;
+    cursor: pointer;
 }
 
 header menu {
-    color: white;
+    
+    margin-bottom: 10px;
 }
 
+header menu ul {
+    list-style-type: none;
+}
+#itens {
+    
+    display: none;
+}
 header menu ul li {
+    cursor: pointer;
+    
     background-color: rgb(73, 73, 73);
     text-align: center;
     padding: 10px 0px;
@@ -49,10 +64,22 @@ header menu ul li:hover {
     background-color: #949494;
 }
 
+header menu ul li a {
+    
+    text-decoration: none;
+    color: white;
+}
+
 main {
+    
+    
+    max-width: 700px;
+    margin: auto;
+    width: 95vw;
     background-color: white;
     border-radius: 10px;
-    margin: 10px 5px 0px 5px;
+    
+    
 }
 
 main h2 {
@@ -64,5 +91,7 @@ main article {
 }
 
 main article p {
+    text-align: justify;
+    text-indent: 1.5em;
     padding-bottom: 20px;
 }
