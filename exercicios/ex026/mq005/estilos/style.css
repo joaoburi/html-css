@@ -23,7 +23,7 @@ header h1 {
     padding: 10px 0px;
 }
 
-div {
+div#icone {
     background-color: #303030;
     padding: 10px 0px;
     text-align: center;
@@ -33,7 +33,7 @@ div {
     user-select: none;
 }
 
-div:hover {
+div#icone:hover {
     background-color: white;
     color: black;
     cursor: pointer;
