@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/* Laptops, Tablets Grandes e PCs pequenos  */
+@media screen and (min-width: 769px) {
+    menu#itens {
+        display: block;
+    }
+
+    div {
+        display: none;
+    }
+    /* separacao */
+  
+    header menu ul {
+        display: flex; 
+    }
+
+    header menu ul li {
+        margin-right: 5px;
+        padding: 10px;
+        
+    }
+    
+    header menu ul li:hover {
+        background-color: #949494;
+    }
+}
