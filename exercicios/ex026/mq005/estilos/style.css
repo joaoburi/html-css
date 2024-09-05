@@ -18,12 +18,12 @@ body, html {
 }
 
 header h1 {
-    background-color: #b75151;
+    background-color: #6c6c6c;
     text-align: center;
     padding: 10px 0px;
 }
 
-div#icone {
+div {
     background-color: #303030;
     padding: 10px 0px;
     text-align: center;
@@ -33,10 +33,14 @@ div#icone {
     user-select: none;
 }
 
-div#icone:hover {
+div:hover {
     background-color: white;
     color: black;
     cursor: pointer;
+}
+
+#icone {
+    font-size: 28px;
 }
 
 header menu {
