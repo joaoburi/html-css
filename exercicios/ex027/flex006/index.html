@@ -5,20 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
+    * {
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+    }
     #container {
       background-color: aquamarine;
+      height: 400px;
       display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      height: 300px;
-      align-items: center;
+      flex-flow: row wrap;
+      
+      align-content: space-evenly;
+
     }
     .item {
       background-color: burlywood;
       border: 1px solid black;
       text-align: center;
-      
-      
+      padding: 40px;
     }
   </style>
 </head>
@@ -31,6 +36,13 @@
     <div class="item">E</div>
     <div class="item">F</div>
     <div class="item">G</div>
+    <div class="item">H</div>
+    <div class="item">I</div>
+    <div class="item">J</div>
+    <div class="item">K</div>
+    <div class="item">L</div>
+    <div class="item">M</div>
+    <div class="item">N</div>
   </div>
 </body>
 </html>
