@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #container {
+      background-color: aquamarine;
+      display: flex;
+      flex-flow: row nowrap;
+    }
+    .item {
+      background-color: burlywood;
+      border: 1px solid black;
+      text-align: center;
+      flex-basis: 200px;
+    }
+
+    div#cxa {
+     
+      flex-shrink: 2;
+      flex-grow: 0;
+    }
+
+    div#cxb {
+      
+      flex-shrink: 1;
+      flex-grow: 1;
+    }
+
+    div#cxc {
+      
+      flex-shrink: 0;
+      flex-grow: 2;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div class="item" id="cxa">A</div>
+    <div class="item" id="cxb">B</div>
+    <div class="item" id="cxc">C</div>
+  </div>
+</body>
+</html>
