@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  background-color: darkgrey;
+}
+
+header h1 {
+  color: white;
+}
+
+header nav {
+
+
+}
+
+header nav a {
+  
+}
