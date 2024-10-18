@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 570px) {
+  header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  header h1 {
+    padding: 0px 0px;
+  }
+
+  header nav {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  header nav a {
+    margin: 0px 5px;
+  }
+}
