@@ -8,12 +8,14 @@
   }
 
   header h1 {
-    padding: 0px 0px;
+    padding: 0px 0px 0px 5px;
+    flex: 0 0 170px;
+    text-align: start;
   }
 
   header nav {
-    display: flex;
-    flex-flow: row nowrap;
+    
+    flex-flow: row wrap;
   }
 
   header nav a {
