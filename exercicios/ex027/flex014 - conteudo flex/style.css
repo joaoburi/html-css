@@ -14,6 +14,33 @@ body {
   width: 100vw;
 }
 
+main {
+
+}
+
 section.flex-content {
   background-color: rgb(179, 177, 177);
+}
+
+article.media-text {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+article.text-media {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+article .text {
+  max-width: 800px;
+}
+
+article.media-text .media {
+  background-color: brown;
+}
+
+article  .media {
+  background-color: aqua;
+  flex: 3 3 200px;
 }
