@@ -7,18 +7,33 @@
 }
 
 .container {
-  display: grid;
-  width: 400px;
-  grid-template-columns: 150px 1fr;
+  display: 	grid;
+  grid-template-columns: repeat(auto-fill, 100px);
+  grid-template-rows: auto;
+  grid-template-areas: 'blue green' 'red yellow';
   
 }
 
 .container > div {
+  width: 100px;
+  height: 100px;
+}
+
+.red {
+  background-color: red;
+ 
+}
+.blue {
+  background-color: blue;
   
-  background-color: rgb(152, 71, 228);
-  border-radius: 5px;
-  border: 2px solid blueviolet;
+  /* grid-row: 2;
+  grid-column: 2; */
+}
+.yellow {
+  background-color: yellow;
   
-  
+}
+.green {
+  background-color: green;
   
 }
